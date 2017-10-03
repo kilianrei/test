@@ -1,0 +1,80 @@
+/*Googl fonds import*/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Abel|Bubbler+One|Josefin+Slab|Jura|Pangolin');
+</style>
+
+body {
+    margin: 0;
+}
+
+/*Logo desing*/
+#logo{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    
+}
+
+/*Trennstrich 1*/
+hr {
+  background-color:green;
+  color:green;
+  border:#FF0000;
+  height:2px;
+}
+    
+/*Navigations design (nav)*/
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    
+}
+#nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+#nav ul li:hover {
+    cursor: pointer;
+    color: green;
+
+}
+
+/*nav Button design*/
+.navbuttons {
+    text-decoration: none;
+    color: green;
+    font-size: 20px; 
+}
+
+.navbutton:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/*Trennstrich 2* in css Trennstrich 1 enhalten/
+
+/*Bilder skalierung für Portfolio*/
+.skale {
+    height: 100%;
+    width: 1000px;
+    width: 1000px;
+}
+#position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: ;
+    
+}
+
+/*Bildergallerie im Portfolio*/
